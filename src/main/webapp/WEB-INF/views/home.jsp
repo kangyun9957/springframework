@@ -8,6 +8,6 @@
 	Hello world!  
 </h1>
 
-<P>  The time on the server is ${serverTime}. </P>
+<P>  서버시간 ${serverTime}. </P>
 </body>
 </html>
