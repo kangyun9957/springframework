@@ -9,10 +9,9 @@
 	<configs>
 		<config>src/main/webapp/WEB-INF/spring/root/root-context.xml</config>
 		<config>src/main/resources/spring/root/ch01_component_scan.xml</config>
+		<config>src/main/resources/spring/dispatcher/ch02_resources.xml</config>
 	</configs>
 	<autoconfigs>
-		<config>src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml</config>
-		<config>src/main/resources/spring/root/root-context.xml</config>
 	</autoconfigs>
 	<configSets>
 	</configSets>
