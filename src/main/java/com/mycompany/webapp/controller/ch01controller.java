@@ -1,14 +1,17 @@
 package com.mycompany.webapp.controller;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+
+
+import org.apache.logging.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class ch01controller {
 	
-	private static final Logger logger = LoggerFactory.getLogger(ch01controller.class);
+	private static final Logger logger = LogManager.getLogger(ch01controller.class);
 
 	@RequestMapping("/ch01/content")
 	public String content(){

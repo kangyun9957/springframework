@@ -1,17 +1,15 @@
 package com.mycompany.webapp.dao;
 
-import org.slf4j.Logger
-;
-import org.slf4j.LoggerFactory;
-import org.springframework.stereotype.Repository;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 
-import com.mycompany.webapp.service.MemberService;
+import org.springframework.stereotype.Repository;
 
 @Repository
 public class MemberDao {
 	
 
-	private static final Logger logger = LoggerFactory.getLogger(MemberDao.class);
+	private static final Logger logger = LogManager.getLogger(MemberDao.class);
 	
 	public MemberDao() {
 		logger.info("실행");
