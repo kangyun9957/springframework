@@ -1,9 +1,9 @@
 package com.mycompany.webapp.service;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
-import org.springframework.stereotype.Service;
 
+import org.springframework.stereotype.Service;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import com.mycompany.webapp.dao.MemberDao;
 
 
@@ -12,7 +12,7 @@ import com.mycompany.webapp.dao.MemberDao;
 public class MemberService {
 	
 	
-	private static final Logger logger = LogManager.getLogger(MemberService.class);
+	private static final Logger logger = LoggerFactory.getLogger(MemberService.class);
 	
 	public MemberService() {
 		logger.info("실행");
